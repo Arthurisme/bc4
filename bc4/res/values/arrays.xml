@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="remindBeforePayDateStr">
+        <item>No alert</item>
+        <item>Advance one day!</item>
+        <item>Advance two days!</item>
+        <item>Advance three days!</item>
+        <item>Advance four days!</item>
+        <item>Advance five days!</item>
+    </string-array>
+    <string-array name="setting_listview_item_operation">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="budget_mode_type">
+        <item>Simple mode</item>
+        <item>Standard mode</item>
+        <item>Self definition mode</item>
+    </string-array>
+    <string-array name="report_type">
+        <item>By Type</item>
+        <item>By Subtype</item>
+        <item>By company</item>
+        <item>By account</item>
+        <item>By project</item>
+    </string-array>
+    
+    <string-array name="TBL_EXPENDITURE_CATEGORY">
+		<item>Other items</item>
+		<item>Insurance</item>
+		<item>Medical</item>
+		<item>Friends</item>
+		<item>Study</item>
+		<item>Enterments</item>
+		<item>Communication</item>
+		<item>Transport</item>
+		<item>Mortgage/Rent</item>
+		<item>Food</item>
+		<item>Clothes</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_1">
+		<item>Lost</item>
+		<item>Accident</item>
+		<item>Others</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_2">
+		<item>Punishment</item>
+		<item>Instersts</item>
+		<item>Tax</item>
+		<item>Loan</item>
+		<item>Invest loss</item>
+		<item>Bank fee</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_3">
+		<item>Examination</item>
+		<item>Beauty</item>
+		<item>Health</item>
+		<item>Medicine</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_4">
+		<item>Invite/Gifts</item>
+		<item>Donation</item>
+		<item>Return</item>
+		<item>Parent</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_5">
+		<item>Books</item>
+		<item>Equipment</item>
+		<item>Training</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_6">
+		<item>Enterment</item>
+		<item>Traveling</item>
+		<item>Pets</item>
+		<item>Party</item>
+		<item>Sport</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_7">
+		<item>Mobile</item>
+		<item>Internet</item>
+		<item>Telephone</item>
+		<item>Posting</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_8">
+		<item>Bus</item>
+		<item>Tax</item>
+		<item>Car</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_9">
+		<item>Rent</item>
+		<item>Building Manage</item>
+		<item>Repair</item>
+		<item>Hydro</item>
+		<item>Daily</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_10">
+		<item>Dinner</item>
+		<item>Friut</item>
+		<item>Tea</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_11">
+		<item>Cloth</item>
+		<item>Shoes/Bags</item>
+		<item>Costoms</item>
+	</string-array>
+	<string-array name="TBL_INCOME_CATEGORY">
+		<item>Other Income</item>
+		<item>Job Income</item>
+	</string-array>
+	<string-array name="TBL_INCOME_SUB_CATEGORY_1">
+		<item>Mange</item>
+		<item>Gift</item>
+		<item>Bonus</item>
+		<item>Present</item>
+	</string-array>
+	<string-array name="TBL_INCOME_SUB_CATEGORY_2">
+		<item>Another job</item>
+		<item>Invetment</item>
+		<item>Bonus</item>
+		<item>Over time</item>
+		<item>Insterest</item>
+		<item>Salary</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_TYPE">
+		<item>Cash account,0</item>
+		<item>Stock account,0</item>
+		<item>Visual account,0</item>
+		<item>Loss account,-1</item>
+		<item>Debt account,1</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_1">
+		<item>cash bags</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_2">
+		<item>bank card</item>
+		<item>bank saving</item>
+		<item>finance products</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_3">
+		<item>online pay</item>
+		<item>cash</item>
+		<item>save card</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_4">
+		<item>paying item</item>
+		<item>credit card</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_5">
+		<item>receiving item</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT">
+		<item>bank card($),2,2,0</item>
+		<item>bus($),3,7,0</item>
+		<item>dinner($),3,7,0</item>
+		<item>paypal($),3,5,0</item>
+		<item>express($),3,5,0</item>
+		<item>other($),1,1,0</item>
+		<item>cash($),1,1,0</item>
+	</string-array>
+	<string-array name="TBL_STORE">
+		<item>Other</item>
+		<item>Restaurant</item>
+		<item>Bank</item>
+		<item>Shopping mall</item>
+		<item>Supermarket</item>
+		<item>Transport</item>
+	</string-array>
+	<string-array name="TBL_ITEM">
+		<item>腐败</item>
+		<item>Traveling</item>
+		<item>Decreat</item>
+		<item>Company</item>
+		<item>Business trip</item>
+	</string-array>
+</resources>

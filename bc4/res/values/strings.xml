@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	
+	<string name="hello">Hello World, Main!</string>
+	
+	<string name="my_dialog_loading">Loading</string>
+	<string name="point">Friendly Prompt</string>
+	<string name="exit_message">Are you sure exit？</string>
+	<string name="exit_ok">Confirm</string>
+	<string name="exit_cancle">Cencel</string>
+	<string name="error_system_message">System Error</string>
+	
+    <string name="haha">mymoney</string>
+    <string name="app_name">Budget Canlendar</string>
+    <string name="done">Finish</string>
+    <string name="clear">Clear</string>
+    <string name="listview_data_loading">Data loading…</string>
+    <string name="listview_empty">Without Data</string>
+    <string name="back_btn">Return</string>
+    <string name="edit_btn">Edit</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert_dialog_ok">Confirm</string>
+    <string name="alert_dialog_cancel">Cencel</string>
+    <string name="spn_prompt_category">Type</string>
+    <string name="spn_prompt_subcategory">SubType</string>
+    <string name="spn_prompt_account">Account</string>
+    <string name="spn_prompt_corporation">Company</string>
+    <string name="spn_prompt_project">Project</string>
+    <string name="add_user">Add User</string>
+    <string name="add_expense_quickly">Create New</string>
+    <string name="list_expense">List</string>
+    <string name="nav_add_expense">Add</string>
+    <string name="nav_report">Report</string>
+    <string name="nav_planning">Plan</string>
+    <string name="nav_budget">Budget</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_setting">Setting</string>
+    <string name="search">Search</string>
+    <string name="take_pic">Take Picture</string>
+    <string name="sync_or_not">If Sync?</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="add">Add</string>
+    <string name="password_setting">Password Protection</string>
+    <string name="delete_title">Delete prompt</string>
+    <string name="delete_message">Delete record?</string>
+    <string name="delete">Delete</string>
+    <string name="delete_cancel">Cancel</string>
+    <string name="account_canot_delete">No permission, Please empty related information first!</string>
+    <string name="category_canot_delete">No permission, please empty sub type at first!</string>
+    <string name="corporation_canot_delete">No permission, please clear related records first!</string>
+    <string name="magic_code">0</string>
+    <string name="budget_max_expense_tips">Total budget this month</string>
+    <string name="budget_category_expense_tips">Set total budget for this month type</string>
+
+	<!-- memo——MyDialog -->
+	<string name="dialog_memo_title">Notes</string>
+	<string name="dialog_memo_ok">Save</string>
+	<string name="dialog_memo_cancle">Cancel</string>
+	
+	<!-- MainActivity -->
+    <string name="text_title_today">List-by day</string>
+    <string name="text_title_week">List-by week</string>
+    <string name="text_title_month">List-by month</string>
+	
+    <!-- TransactionTabActivity -->
+    <string name="input_message">Please fill the amount</string>
+    <string name="edit_message">Edit Success</string>
+    <string name="save_message">Save success</string>
+    <string name="edit_in">Edit income</string>
+    <string name="edit_out">Edit expense</string>
+    
+    <!-- NavExpenseActivity -->
+    <string name="message_error_system">System error</string>
+    <string name="message_delete_ok">Delete success.</string>
+    <string name="message_error_edit">Sorry, only income and expense can edit.</string>
+    
+    <!-- SettingAddOrEditAccountActivity -->
+    <string name="edit_point">Auto count, no need input</string>
+    <string name="error_user_empty">User name can not be empty.</string>
+    <string name="error_user_there">Sorry, this user name already exit!</string>
+    <string name="error_balance_empty">Rest amount can not empty!</string>
+    <string name="error_balance_number">Rest data is not correct, must be number!</string>
+    <string name="error_system">Sorry,operator failed!</string>
+    
+    <!-- TransferActivity -->
+    <string name="transfer_amount_empty">Amount can not be empty!</string>
+    <string name="transfer_amount_0">Can not be zero!</string>
+    <string name="transfer_amount_number">Must be number!</string>
+    <string name="transfer_ok">Transfer success!</string>
+    
+    <!-- Budget -->
+    <string name="balance_amount_title">Rest Amount：</string>
+    <string name="budget_ok">Setting success!</string>
+</resources>
