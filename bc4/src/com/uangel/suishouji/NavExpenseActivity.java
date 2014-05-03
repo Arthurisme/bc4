@@ -32,7 +32,7 @@ implements View.OnClickListener, AdapterView.OnItemClickListener, AdapterView.On
 	public static final int mode_month 	= 1;
 	public static final int mode_week 	= 2;
 	public static final int mode_day 	= 3;
-	private static String datefmt = "yyyy年MM月dd日";
+	private static String datefmt = "yyyy-MM-dd";
 	
 	private TextView title_tv;
 	private TextView time_interval_tv;
