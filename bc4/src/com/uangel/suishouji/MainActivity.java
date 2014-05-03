@@ -208,58 +208,58 @@ public class MainActivity extends Activity implements OnClickListener {
 		
 		Cursor cursor = db.rawQuery("select sum(AMOUNT) from TBL_INCOME",null);
 		if (cursor.moveToNext()) {
-			income_amount_tv.setText("¥ " + cursor.getDouble(0));
+			income_amount_tv.setText("$ " + cursor.getDouble(0));
 			income_amount = (int) cursor.getDouble(0);
 		}
 
 		cursor = db.rawQuery("select sum(AMOUNT) from TBL_EXPENDITURE",null);
 		if (cursor.moveToNext()) {
 			expense_amount = (int) cursor.getDouble(0);
-			expense_amount_tv.setText("¥ " + cursor.getDouble(0));
+			expense_amount_tv.setText("$ " + cursor.getDouble(0));
 		}
 
 		
 		cursor = db.rawQuery("select sum(BUDGET) from TBL_EXPENDITURE_CATEGORY",null);
 		if (cursor.moveToNext()) {
-			budget_balance_amount_tv.setText("-¥ " + cursor.getDouble(0));
+			budget_balance_amount_tv.setText("-$ " + cursor.getDouble(0));
 		}
 
 		date_of_month_tv.setText(day);
-		today_datestr_tv.setText(year + "年" + month + "月" + day + "日");
+		today_datestr_tv.setText(year + "," + month + "," + day + ",");
 		
 		cursor = db.rawQuery("select sum(AMOUNT) from TBL_EXPENDITURE where strftime('%Y-%m-%d',DATE)=?", new String[]{format(calendar.getTime(),0)});
 		if (cursor.moveToNext()) {
-			today_expense_amount_tv.setText("- ¥ " + cursor.getDouble(0));
+			today_expense_amount_tv.setText("- $ " + cursor.getDouble(0));
 		}
 		
 		cursor = db.rawQuery("select sum(AMOUNT) from TBL_INCOME where strftime('%Y-%m-%d',DATE)=?", new String[]{format(calendar.getTime(),0)});
 		if (cursor.moveToNext()) {
-			today_income_amount_tv.setText("¥ " + cursor.getDouble(0));
+			today_income_amount_tv.setText("$ " + cursor.getDouble(0));
 		}
 		
 		
 		cursor = db.rawQuery("select sum(AMOUNT) from TBL_EXPENDITURE where strftime('%Y-%m-%d',DATE)>=? and strftime('%Y-%m-%d',DATE)<=?", new String[]{getMondayOFWeek(),getCurrentWeekday()});
 		if (cursor.moveToNext()) {
-			week_expense_amount_tv.setText("- ¥ " + cursor.getDouble(0));
+			week_expense_amount_tv.setText("- $ " + cursor.getDouble(0));
 		}
 		
 		cursor = db.rawQuery("select sum(AMOUNT) from TBL_INCOME where strftime('%Y-%m-%d',DATE)>=? and strftime('%Y-%m-%d',DATE)<=?", new String[]{getMondayOFWeek(),getCurrentWeekday()});
 		if (cursor.moveToNext()) {
-			week_income_amount_tv.setText("¥ " + cursor.getDouble(0));
+			week_income_amount_tv.setText("$ " + cursor.getDouble(0));
 		}
 		week_datestr_tv.setText(weekStart + "-" + weekEnd);
 		
 		
-		month_datestr_tv.setText(month + "月01日-" + month + "月" + getDefaultDay() + "日");
+		month_datestr_tv.setText(month + "Month 01-" + month + "," + getDefaultDay() + ",");
 		
 		cursor = db.rawQuery("select sum(AMOUNT) from TBL_EXPENDITURE where strftime('%Y%m',DATE)=?", new String[]{year + month});
 		if (cursor.moveToNext()) {
-			month_expense_amount_tv.setText("- ¥ " + cursor.getDouble(0));
+			month_expense_amount_tv.setText("- $ " + cursor.getDouble(0));
 		}
 		
 		cursor = db.rawQuery("select sum(AMOUNT) from TBL_INCOME where strftime('%Y%m',DATE)=?", new String[]{year + month});
 		if (cursor.moveToNext()) {
-			month_income_amount_tv.setText("¥ " + cursor.getDouble(0));
+			month_income_amount_tv.setText("$ " + cursor.getDouble(0));
 		}
 		
 		cursor.close();
@@ -315,7 +315,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		SimpleDateFormat ymd = null;
 		switch (id) {
 		case DATE_MOTH_DAY:
-			ymd = new SimpleDateFormat("MM月dd日");
+			ymd = new SimpleDateFormat("MMdd");
 			break;
 		case DATE_DAY:
 			ymd = new SimpleDateFormat("dd");
