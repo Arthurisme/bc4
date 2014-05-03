@@ -6,18 +6,18 @@
         <LinearLayout android:orientation="vertical" android:id="@+id/month_expense_ly" android:focusable="true" android:clickable="true" android:layout_width="307.0px" android:layout_height="240.0px">
             <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0px" android:layout_marginTop="6.0px">
                 <TextView android:textSize="25.0dip" android:textStyle="bold" android:id="@+id/month_tv" android:layout_marginLeft="35.0px" style="@style/main_budget_lable_hdpi" />
-                <TextView android:paddingBottom="5.0px" android:layout_marginLeft="4.0px" android:text="月:" style="@style/main_budget_lable_hdpi" />
+                <TextView android:paddingBottom="5.0px" android:layout_marginLeft="4.0px" android:text="month:" style="@style/main_budget_lable_hdpi" />
             </LinearLayout>
             <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0px">
-                <TextView android:text="收入总额:" style="@style/main_money_label_hdpi" android:textColor = "@color/white" />
+                <TextView android:text="Total Income:" style="@style/main_money_label_hdpi" android:textColor = "@color/white" />
                 <TextView android:id="@+id/income_amount_tv" style="@style/main_money_hdpi" android:textColor="@color/white"/>
             </LinearLayout>
             <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="55.0px">
-                <TextView android:text="支出总额:" style="@style/main_money_label_hdpi" android:textColor = "@color/white"/>
+                <TextView android:text="Total spend:" style="@style/main_money_label_hdpi" android:textColor = "@color/white"/>
                 <TextView android:id="@+id/expense_amount_tv" style="@style/main_money_hdpi" android:textColor="@color/white"/>
             </LinearLayout>
             <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="55.0px">
-                <TextView android:text="预算余额:" style="@style/main_money_label_hdpi" android:textColor = "@color/white"/>
+                <TextView android:text="Budget remain:" style="@style/main_money_label_hdpi" android:textColor = "@color/white"/>
                 <TextView android:id="@+id/budget_balance_amount_tv" style="@style/main_money_hdpi" android:textColor="@color/white"/>
             </LinearLayout>
         </LinearLayout>
@@ -44,7 +44,7 @@
                     <TextView android:textColor="@color/black" android:layout_gravity="center_horizontal" android:id="@+id/date_of_month_tv" android:paddingTop="15.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
                 </FrameLayout>
                 <LinearLayout android:layout_toRightOf="@+id/today_icon_fl" style="@style/main_row_stat_time_ly_hdpi">
-                    <TextView android:id="@+id/today_tv" android:text="今天" style="@style/main_row_stat_time_tips_hdpi" />
+                    <TextView android:id="@+id/today_tv" android:text="Today" style="@style/main_row_stat_time_tips_hdpi" />
                     <TextView android:id="@+id/today_datestr_tv" style="@style/main_row_stat_time_str_hdpi" />
                 </LinearLayout>
                 <TextView android:id="@+id/today_expense_amount_tv" style="@style/main_row_expense_amount_hdpi" />
@@ -54,7 +54,7 @@
             <RelativeLayout android:orientation="horizontal" android:id="@+id/week_row_rl" style="@style/row_stat_hdpi">
                 <ImageView android:id="@+id/week_icon_iv" android:background="@drawable/main_week" style="@style/main_row_stat_icon_hdpi" />
                 <LinearLayout android:layout_toRightOf="@+id/week_icon_iv" style="@style/main_row_stat_time_ly_hdpi">
-                    <TextView android:text="本周" style="@style/main_row_stat_time_tips_hdpi" />
+                    <TextView android:text="This week" style="@style/main_row_stat_time_tips_hdpi" />
                     <TextView android:id="@+id/week_datestr_tv" style="@style/main_row_stat_time_str_hdpi" />
                 </LinearLayout>
                 <TextView android:id="@+id/week_expense_amount_tv" style="@style/main_row_expense_amount_hdpi" />
@@ -64,7 +64,7 @@
             <RelativeLayout android:id="@+id/month_row_rl" android:nextFocusDown="@+id/nav_add_expense_btn" style="@style/row_stat_hdpi">
                 <ImageView android:id="@+id/month_icon_iv" android:background="@drawable/main_month" style="@style/main_row_stat_icon_hdpi" />
                 <LinearLayout android:layout_toRightOf="@+id/month_icon_iv" style="@style/main_row_stat_time_ly_hdpi">
-                    <TextView android:text="本月" style="@style/main_row_stat_time_tips_hdpi" />
+                    <TextView android:text="This Month" style="@style/main_row_stat_time_tips_hdpi" />
                     <TextView android:id="@+id/month_datestr_tv" style="@style/main_row_stat_time_str_hdpi" />
                 </LinearLayout>
                 <TextView android:id="@+id/month_expense_amount_tv" style="@style/main_row_expense_amount_hdpi" />
