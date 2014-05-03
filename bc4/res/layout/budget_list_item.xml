@@ -13,7 +13,7 @@
 			style="@style/budget_lv_item_category_name" />
 		<TextView android:id="@+id/budget_label_tv"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"
-			android:text="预算:" android:layout_below="@id/category_name_tv"
+			android:text="budget:" android:layout_below="@id/category_name_tv"
 			android:layout_alignLeft="@id/category_name_tv"
 			android:layout_alignParentBottom="true" style="@style/budget_lv_item_text" />
 		<TextView android:id="@+id/budget_amount_tv"
