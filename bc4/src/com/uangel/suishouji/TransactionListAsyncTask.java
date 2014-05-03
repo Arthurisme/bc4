@@ -129,8 +129,8 @@ public class TransactionListAsyncTask extends
 		else
 			navview.findViewById(R.id.lv_empty_iv).setVisibility(View.GONE);
 
-		((TextView)navview.findViewById(R.id.income_amount_tv)).setText(String.format("+￥%.2f", inmoney));
-		((TextView)navview.findViewById(R.id.payout_amount_tv)).setText(String.format("-￥%.2f", outmoney));
+		((TextView)navview.findViewById(R.id.income_amount_tv)).setText(String.format("+$%.2f", inmoney));
+		((TextView)navview.findViewById(R.id.payout_amount_tv)).setText(String.format("-$%.2f", outmoney));
 		
 		navview.expense_lv.setAdapter(new TransactionListAdapter(navview, (ArrayList<Object>)trans.clone()));
 		super.onPostExecute(result);

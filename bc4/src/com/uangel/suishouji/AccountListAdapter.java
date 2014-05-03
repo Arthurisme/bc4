@@ -48,9 +48,9 @@ public class AccountListAdapter extends BaseAdapter {
 			String subcatname = commondata.accountsubcategory.get(data.category).name;
 			String cost;
 			if (data.balance >= 0)
-				cost = String.format("￥%.2f", data.balance);
+				cost = String.format("$%.2f", data.balance);
 			else
-				cost = String.format("-￥%.2f", -data.balance);
+				cost = String.format("-$%.2f", -data.balance);
 			
 			((TextView)convertView.findViewById(R.id.account_name_tv)).setText(data.name);
 			((TextView)convertView.findViewById(R.id.second_level_account_group_name_tv)).setText(subcatname);

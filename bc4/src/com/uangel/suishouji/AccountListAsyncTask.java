@@ -69,8 +69,8 @@ public class AccountListAsyncTask extends AsyncTask<SettingAccountActivity, Void
 
 	@Override
 	protected void onPostExecute(Void result) {
-		((TextView)acc_activity.findViewById(R.id.asset_amount_tv)).setText(String.format("￥%.2f", commondata.asset_amount));
-		((TextView)acc_activity.findViewById(R.id.liabilitiy_amount_tv)).setText(String.format("￥%.2f", commondata.liability_amount));
+		((TextView)acc_activity.findViewById(R.id.asset_amount_tv)).setText(String.format("$%.2f", commondata.asset_amount));
+		((TextView)acc_activity.findViewById(R.id.liabilitiy_amount_tv)).setText(String.format("$%.2f", commondata.liability_amount));
 		
 		acc_activity.account_lv.setAdapter(new AccountListAdapter(acc_activity, (ArrayList<Object>)accounts.clone()));
 		acc_activity.account_lv.setSelection(0);
