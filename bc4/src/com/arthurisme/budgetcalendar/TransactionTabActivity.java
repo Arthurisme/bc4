@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
@@ -11,8 +11,9 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-import com.uangel.suishouji.db.MyDbHelper;
-import com.uangel.suishouji.db.MyDbInfo;
+import com.arthurisme.budgetcalendar.db.MyDbHelper;
+import com.arthurisme.budgetcalendar.db.MyDbInfo;
+import com.arthurisme.budgetcalendar.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

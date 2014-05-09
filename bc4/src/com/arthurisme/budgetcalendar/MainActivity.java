@@ -1,12 +1,13 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import com.uangel.suishouji.db.MyDbHelper;
-import com.uangel.suishouji.utility.MyProcessBar;
+import com.arthurisme.budgetcalendar.db.MyDbHelper;
+import com.arthurisme.budgetcalendar.utility.MyProcessBar;
+import com.arthurisme.budgetcalendar.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

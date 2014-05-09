@@ -1,8 +1,10 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
+import com.arthurisme.budgetcalendar.R;
 
 import android.os.AsyncTask;
 import android.util.Log;

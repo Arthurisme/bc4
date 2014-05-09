@@ -1,6 +1,6 @@
-package com.uangel.suishouji.utility;
+package com.arthurisme.budgetcalendar.utility;
 
-import com.uangel.suishouji.R;
+import com.arthurisme.budgetcalendar.R;
 
 import android.content.Context;
 import android.os.Handler;

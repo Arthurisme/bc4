@@ -21,10 +21,10 @@
                 <TextView android:id="@+id/budget_balance_amount_tv" style="@style/main_money_hdpi" android:textColor="@color/white"/>
             </LinearLayout>
         </LinearLayout>
-        <com.uangel.suishouji.utility.MyProcessBar
+        <com.arthurisme.budgetcalendar.utility.MyProcessBar
 			android:id="@+id/budget_pb" android:layout_width="87.0px" android:paddingTop="34.0px" android:layout_gravity="center_horizontal" android:gravity="bottom"
         	android:layout_height="212.0px" android:layout_marginLeft="18.0px">
-				</com.uangel.suishouji.utility.MyProcessBar> 
+				</com.arthurisme.budgetcalendar.utility.MyProcessBar> 
 <!--         <com.mymoney.ui.widget.BatteryView android:id="@+id/budget_status_bv" android:background="@drawable/widget_battery_bg" 
 				android:focusable="true" android:clickable="true" android:layout_width="115.0px" android:layout_height="205.0px" 
 				android:layout_marginLeft="2.0px" android:layout_marginTop="20.0px" batteryView:frameRate="1" batteryView:animationDurationTime="3000" 

@@ -1,8 +1,9 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.util.ArrayList;
 
-import com.uangel.suishouji.CommonData.AccountCategoryData;
+import com.arthurisme.budgetcalendar.CommonData.AccountCategoryData;
+import com.arthurisme.budgetcalendar.R;
 
 import android.app.Activity;
 import android.content.Intent;

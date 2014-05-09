@@ -1,9 +1,10 @@
 /**
  * 
  */
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
-import com.uangel.suishouji.db.MyDbHelper;
+import com.arthurisme.budgetcalendar.db.MyDbHelper;
+import com.arthurisme.budgetcalendar.R;
 
 import android.app.Activity;
 import android.content.Intent;

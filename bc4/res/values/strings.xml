@@ -21,7 +21,7 @@
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
     <string name="alert_dialog_ok">Confirm</string>
-    <string name="alert_dialog_cancel">Cencel</string>
+    <string name="alert_dialog_cancel">Cancel</string>
     <string name="spn_prompt_category">Type</string>
     <string name="spn_prompt_subcategory">SubType</string>
     <string name="spn_prompt_account">Account</string>

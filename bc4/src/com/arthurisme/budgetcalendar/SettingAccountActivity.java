@@ -1,4 +1,6 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
+
+import com.arthurisme.budgetcalendar.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

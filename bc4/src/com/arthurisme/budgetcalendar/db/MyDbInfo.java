@@ -1,4 +1,4 @@
-package com.uangel.suishouji.db;
+package com.arthurisme.budgetcalendar.db;
 
 public class MyDbInfo {
 	

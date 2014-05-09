@@ -1,4 +1,4 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -8,9 +8,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.ListIterator;
 
-import com.uangel.suishouji.db.MyDbHelper;
-import com.uangel.suishouji.db.MyDbInfo;
-import com.uangel.suishouji.utility.MyDialog;
+import com.arthurisme.budgetcalendar.db.MyDbHelper;
+import com.arthurisme.budgetcalendar.db.MyDbInfo;
+import com.arthurisme.budgetcalendar.utility.MyDialog;
+import com.arthurisme.budgetcalendar.R;
 
 import android.database.Cursor;
 import android.os.AsyncTask;

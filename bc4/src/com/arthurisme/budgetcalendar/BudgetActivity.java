@@ -1,9 +1,11 @@
 /**
  * 
  */
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.text.DecimalFormat;
+
+import com.arthurisme.budgetcalendar.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

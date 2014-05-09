@@ -1,4 +1,4 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -7,6 +7,8 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
+
+import com.arthurisme.budgetcalendar.R;
 
 import android.os.AsyncTask;
 import android.view.View;

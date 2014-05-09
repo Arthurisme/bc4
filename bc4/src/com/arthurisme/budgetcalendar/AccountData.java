@@ -1,19 +1,21 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
-public class BudgetData implements Cloneable {
+public class AccountData implements Cloneable {
 	int id;
+	int type_id;
 	int category;
 	String name;
 	double balance;
 	
-	public BudgetData()
+	public AccountData()
 	{
 		
 	}
 	
-	public BudgetData(int id, String name,int category, double balance)
+	public AccountData(int id, String name,int type_id,int category, double balance)
 	{
 		this.id = id;
+		this.type_id = type_id;
 		this.category = category;
 		this.name = name;
 		this.balance = balance;

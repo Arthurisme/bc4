@@ -1,6 +1,8 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.util.ArrayList;
+
+import com.arthurisme.budgetcalendar.R;
 
 import android.content.Context;
 import android.content.res.Resources;

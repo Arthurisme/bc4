@@ -1,10 +1,12 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.uangel.suishouji.db.MyDbHelper;
-import com.uangel.suishouji.db.MyDbInfo;
+import com.arthurisme.budgetcalendar.db.MyDbHelper;
+import com.arthurisme.budgetcalendar.db.MyDbInfo;
+import com.arthurisme.budgetcalendar.R;
+
 
 
 import android.app.Activity;

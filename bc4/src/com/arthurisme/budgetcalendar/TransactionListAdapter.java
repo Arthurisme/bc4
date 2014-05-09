@@ -1,6 +1,8 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.util.ArrayList;
+
+import com.arthurisme.budgetcalendar.R;
 
 import android.view.LayoutInflater;
 import android.view.View;

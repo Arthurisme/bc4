@@ -1,4 +1,4 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -8,8 +8,9 @@ import java.util.Random;
 
 import org.apache.http.impl.conn.DefaultClientConnection;
 
-import com.uangel.suishouji.db.MyDbHelper;
-import com.uangel.suishouji.db.MyDbInfo;
+import com.arthurisme.budgetcalendar.db.MyDbHelper;
+import com.arthurisme.budgetcalendar.db.MyDbInfo;
+import com.arthurisme.budgetcalendar.R;
 
 import android.app.Activity;
 import android.content.Context;

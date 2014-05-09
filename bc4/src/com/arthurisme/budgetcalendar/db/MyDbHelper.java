@@ -1,4 +1,4 @@
-package com.uangel.suishouji.db;
+package com.arthurisme.budgetcalendar.db;
 
 import android.content.ContentValues;
 import android.content.Context;

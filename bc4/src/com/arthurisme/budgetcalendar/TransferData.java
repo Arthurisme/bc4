@@ -1,4 +1,4 @@
-package com.uangel.suishouji;
+package com.arthurisme.budgetcalendar;
 
 import android.app.Activity;
 import android.os.Bundle;
